@@ -1,0 +1,26 @@
+{
+    "name": "tormorten/ultimate-plugin",
+    "description": "The ultimate WordPress plugin boilerplate.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tor Morten Jensen",
+            "email": "tormorten@tormorten.no"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gizburdt/cuztom"
+        }
+    ],
+    "autoload": {
+        "classmap": ["classes/"],
+        "files": [
+            "includes/functions.php"
+        ]
+    },
+    "require": {
+        "gizburdt/cuztom": "dev-master"
+    }
+}

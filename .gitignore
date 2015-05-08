@@ -1,0 +1,6 @@
+composer.lock
+assets/dist/
+.sass-cache/
+vendor/
+wordpress-plugin/
+node_modules/
