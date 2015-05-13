@@ -93,9 +93,11 @@ add_action( 'plugins_loaded', function() {
 		add_action( 'init', function() {
 			/**
 			 * Start up the post type machine
+			 * 
+			 * Will be availiable as a global object.
 			 */
-			global $up_post_types;
-			$up_post_types = new Ultimate_Plugin_Post_Types();
+			global $ultimate_plugin;
+			$ultimate_plugin = new Ultimate_Plugin();
 			
 		} );
 
